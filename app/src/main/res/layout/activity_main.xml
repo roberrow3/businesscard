@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cape Union Mart"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Cresta shopping centre"
+           android:padding="8dp"
+           android:textSize="20sp"
+           android:textStyle="italic" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="U107B,Beyers Naude Dr,Cresta,Randburg,2118"
+           android:padding="8dp"
+           android:textSize="20sp"
+           android:textStyle="italic"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Email:info@capeunionmart.co.za"
+           android:padding="8dp"
+           android:textSize="20sp"
+           android:textStyle="italic"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="phone:0114781913"
+           android:padding="8dp"
+           android:textSize="20sp"
+           android:textStyle="italic"/>
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cape_union_mart"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
